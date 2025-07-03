@@ -1,0 +1,12 @@
+#ItemGrid {
+    width: 60%;
+    /* height: 40%;
+    max-height: 200px; */
+    float: left;
+    padding: 40px;
+}
+#Header {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 75px;
+}

@@ -1,0 +1,3 @@
+# Guess the Number REST Service
+
+Guess the Number REST Service IS A Spring Boot REST application created using JDBC Template, to access an SQL database. The application creates, retrieves, updates, and deletes data from the database to allow the user to play a simple number-guessing game, Cows & Bulls. Using the appropriate GET and POST methods, the user can create games, make guesses, receive feedback, and view correct solutions upon completion of games. The code itself contains the required database configuration, as well as all game logic.

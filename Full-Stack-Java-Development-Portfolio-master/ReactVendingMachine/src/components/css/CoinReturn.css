@@ -1,0 +1,18 @@
+#Coin-Return-Content {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+#CoinReturn {
+    text-align: center;
+}
+#Coin-Return-Header {
+    font-size: 40px;
+    font-weight: bold;
+}
+#Coin-Return-Button {
+    background-color: thistle;
+    height: 85px;
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+5::MICes::WA::9.25::Wood::123::5.15::4.75::633.45::584.25::112.64::1330.34

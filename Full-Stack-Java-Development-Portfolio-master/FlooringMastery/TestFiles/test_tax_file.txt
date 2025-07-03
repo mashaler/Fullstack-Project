@@ -1,0 +1,4 @@
+
+MU,Texas,4.45
+NA,Washington,9.25
+TT,Kentucky,6.00

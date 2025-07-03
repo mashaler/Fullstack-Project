@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number Front-end</title>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header id="WelcomeMessage"> Let's Play Cows And Bulls </header>
+    </div>
+    <div>
+        <div id="GetGamesButtonArea">
+            <button id="GetAllGamesButton" type="button">Update List of Games</button>
+            <button id="HideAllGames" type="button">Hide Games</button>
+        </div>
+
+        <div id="TableArea1">
+            <table id="t1"  class="Table">
+            </table>
+            <br>
+        </div>
+
+        <div id="MessageBoard">MESSAGE:</div>
+
+        <div id="MakeGuessArea">
+            <form id="GuessForm">
+                <input class="UserInput"id="gameId" type="number" placeholder="Game Id: ">
+                <br>
+                <input class="UserInput" id="guess" type="number" placeholder="Guess: ">
+                <br>
+                <input id="SubmiteGuessButton" class="SubmitButton" type="submit" value="Submit Guess">
+            </form>
+        </div>
+
+        <div id="Status">
+            <div id="RequestGameArea">
+                <form id="RequestGameDetailsForm">
+                    <br>
+                    <input class="UserInput" id="gameIdToSee" type="number" placeholder="Game Id:">
+                    <input  class="SubmitButton" type="submit" value="Check For Game Answer">
+                </form>
+            </div>
+
+            <br>
+
+            <div id="RequestRoundsArea">
+                <form id="RequestRoundsForm">
+                    <br>
+                    <input  class="UserInput" id="RoundsByGameId" type="number" placeholder="Game Id:">
+                    <input  class="SubmitButton" type="submit" value="See Rounds">
+                    <button id="HideAllRounds" type="button">Hide Rounds</button>
+                </form>
+                
+            </div>
+        </div>
+
+        <div id="TableArea2">
+            <table class="Table" id="t2">
+            </table>
+            <br>
+        </div>
+<br><br>
+        <div id="CreateNewGameArea">
+            <button id="CreateNewGameButton" type="button">Create New Game</button>
+        </div>
+    </div>
+</body>
+</html>

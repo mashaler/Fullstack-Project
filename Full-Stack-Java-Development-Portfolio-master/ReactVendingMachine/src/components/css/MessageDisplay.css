@@ -1,0 +1,31 @@
+#Message-Display-Content {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#MessageDisplay {
+    text-align: center;
+
+    /* height: ; */
+}
+#MessageDiv {
+    height: 40px;
+}
+#Message-Display-Header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Purchase-Item-Button {
+    min-height: 80px;
+    /* height: 45px; */
+    font-size: 40px;
+    background-color: thistle;
+    font-weight: bold;
+}
+#Selected-Item-Id {
+    background-color: whitesmoke;
+    min-height: 50px;
+    font-size: 40px;
+}

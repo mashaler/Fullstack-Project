@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+6::123::CA::25.00::Carpet::123::2.25::2.10::276.75::258.30::133.76::668.81

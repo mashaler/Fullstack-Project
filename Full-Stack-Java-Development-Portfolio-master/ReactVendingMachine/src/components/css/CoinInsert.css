@@ -1,0 +1,29 @@
+#User-Funds-Display {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+.Coin-Button {
+    text-align: center;
+    font-weight: bold;
+    height: 70px;
+    background-color: aqua;
+    font-size: 35px;
+    /* color: whitesmoke; */
+    border: 1px solid;
+}
+#Coint-Insert {
+    text-align: center;
+}
+
+#Button-Grid {
+    background-color: thistle;
+}
+
+#Coin-Insert-Header {
+    font-size: 40px;
+    font-weight: bold;
+}
+.Add-Coin {
+    border: solid 3px seashell;
+}

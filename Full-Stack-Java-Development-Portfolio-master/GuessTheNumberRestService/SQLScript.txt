@@ -1,0 +1,19 @@
+DROP TABLE if EXISTS Game;
+
+Create TABLE Game(
+    gameId				INT				PRIMARY KEY AUTO_INCREMENT,
+    correctSolution		CHAR(4)			NOT NULL,
+    gameOver			BOOLEAN			NOT NULL DEFAULT false
+);
+
+DROP TABLE if EXISTS Round;
+
+CREATE TABLE Round(
+    roundId				INT				PRIMARY KEY AUTO_INCREMENT,
+    gameId				INT				NOT NULL,
+    userGuess			CHAR(4)			NOT NULL,
+    timeOfGuess			TIMESTAMP		NOT NULL,
+    result				VARCHAR(10)		NOT NULL,
+    
+    CONSTRAINT FK_Constraint_gameId FOREIGN KEY (gameId) REFERENCES Game(gameId)
+);

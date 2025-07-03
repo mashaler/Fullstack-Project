@@ -1,0 +1,24 @@
+#MoneyHandler-UI {
+    min-width: 200px;
+    min-height: 1000px;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 1290px;
+    margin-right: 0;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color: lightskyblue;
+    padding: 15px;
+    /* padding-top: ;/ */
+    margin-top: 40px;
+    /* margin: 30px; */
+    border: 30px;
+    display: flex;
+    justify-content: center;
+}
+#Control-Pannel {
+    display: flex;
+    justify-content: flex-start;
+}

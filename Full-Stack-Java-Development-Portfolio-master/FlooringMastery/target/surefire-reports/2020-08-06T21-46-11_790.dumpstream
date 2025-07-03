@@ -1,0 +1,4 @@
+# Created at 2020-08-06T21:46:12.229
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Git\Repos\FlooringMastery\FlooringMastery\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
